@@ -7,9 +7,9 @@ class App extends React.Component {
       return (
          <div>
             <ul>
-							<li>Home</Link>
-							<li>About</Link>
-							<li>Contact</Link>
+							<Link>Home</Link>
+							<Link>About</Link>
+							<Link>Contact</Link>
             </ul>
 
            {this.props.children}
